@@ -1,7 +1,7 @@
 .header {
   display: grid;
-  align-items: center;
   grid-template-columns: 1fr auto 1fr;
+  align-items: center;
   width: 100%;
   height: 293px;
   padding: 0 50px;
@@ -10,8 +10,8 @@
 
 .header-menu {
   display: flex;
-  align-items: center;
   justify-content: start;
+  align-items: center;
 }
 
 .header_links-list {
@@ -31,10 +31,10 @@
 
 .header_link {
   color: black;
-  font-size: 18px;
-  text-decoration: underline;
   font-family: "Raleway", sans-serif;
   font-weight: normal;
+  font-size: 18px;
+  text-decoration: underline;
 }
 
 .active {
@@ -52,8 +52,8 @@
 .address {
   width: 240px;
   font-family: "Raleway", sans-serif;
-  font-size: 18px;
   font-weight: normal;
+  font-size: 18px;
   font-style: normal;
   line-height: 1.3;
 }
@@ -84,14 +84,15 @@
 
 .overlay {
   position: absolute;
+  inset: 0;
   z-index: 1;
   background-color: rgba(0, 0, 0 / 0.5);
-  inset: 0;
 }
 
 .cover_title {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 385px;
   margin-top: 165px;
   padding: 0 50px;
@@ -100,7 +101,6 @@
   font-weight: bold;
   font-size: 100px;
   text-transform: uppercase;
-  justify-content: space-between;
 }
 
 .aligned-text {
@@ -117,8 +117,8 @@
 
 .letter-spacing-extended {
   display: flex;
-  text-transform: uppercase;
   letter-spacing: 30%;
+  text-transform: uppercase;
 }
 
 .no-letter-spacing {
@@ -127,10 +127,10 @@
 
 .cover_description {
   display: flex;
-  padding: 0 50px;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   margin-top: 106px;
+  padding: 0 50px;
 }
 .cover_description-text {
   color: white;
@@ -151,8 +151,8 @@
   font-weight: normal;
   font-size: 22px;
   text-transform: uppercase;
-  white-space: nowrap;
   background-color: transparent;
+  white-space: nowrap;
 }
 
 .lots {
@@ -223,9 +223,9 @@
 .card_text {
   position: relative;
   z-index: 2;
+  margin: 0;
   color: white;
   font-family: "Raleway", sans-serif;
-  margin: 0;
 }
 .card_title {
   font-weight: bold;
@@ -260,9 +260,9 @@
 
 .about_column {
   display: grid;
+  grid-template-columns: 334px auto;
   gap: 25px;
   height: 100%;
-  grid-template-columns: 334px auto;
 }
 
 .about_logo {
@@ -293,9 +293,9 @@
   margin-bottom: 76px;
   color: black;
   font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  font-size: 40px;
   font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 .about_text {
@@ -327,8 +327,8 @@
 }
 
 .footer_menu-list {
-  list-style: none;
   text-align: center;
+  list-style: none;
 }
 
 .footer_menu-list-item {
@@ -344,8 +344,8 @@
 .footer_menu-link {
   color: black;
   text-decoration: underline;
-  text-underline-offset: 4px;
   text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
 }
 
 .footer_social-list {
