@@ -50,7 +50,7 @@
 }
 
 .address {
-  width: 240px;
+  max-width: 240px;
   font-family: "Raleway", sans-serif;
   font-weight: normal;
   font-size: 18px;
@@ -132,20 +132,21 @@
   margin-top: 106px;
   padding: 0 50px;
 }
+
 .cover_description-text {
   color: white;
   font-family: "Raleway", sans-serif;
   font-weight: normal;
   font-size: 22px;
   text-transform: uppercase;
-  word-spacing: 19px;
+  word-spacing: 18.5px;
 }
 
 .bet-button {
   max-width: 256px;
   height: 51px;
   border: 1px solid white;
-  padding: 12px 31px;
+  padding: 12px 32px 11px 31px;
   color: rgb(255, 255, 255);
   font-family: "Raleway", sans-serif;
   font-weight: normal;
